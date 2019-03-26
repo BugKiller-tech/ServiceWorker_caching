@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #CCC;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background: #333;
+  color: white;
+}
+
+nav {
+  display: block;
+  background: #444;
+  padding: 0.2rem 2rem;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a.active {
+  color: #ffff00;
+}
+nav ul li:hover {
+  background: gray;
+}
+
+
+main {
+  
+  padding: 2rem;
+  
+}
